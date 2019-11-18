@@ -21,7 +21,7 @@ class MovieDetail extends Component {
                 isLoggedIn:true
             })
         }
-        fetch(`https://www.omdbapi.com/?apikey=fa9a7315&i=${this.state.movieId}`).then((res)=> res.json())
+        fetch(`https://www.omdbapi.com/?apikey=55b71769&i=${this.state.movieId}`).then((res)=> res.json())
         .then((data)=>{
           if(data.Response === "True"){
             this.setState({
