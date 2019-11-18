@@ -24,7 +24,7 @@ class MovieList extends Component{
         })
     }
     getMovie(){
-        fetch(`https://www.omdbapi.com/?apikey=55b71769&s=${this.state.search}&type=movie`).then((res)=> res.json())
+        fetch(`https://www.omdbapi.com/?apikey=fa9a7315&s=${this.state.search}&type=movie`).then((res)=> res.json())
         .then((data)=>{
            this.setState({
                movies:data.Search
